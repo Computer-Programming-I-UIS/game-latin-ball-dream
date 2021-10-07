@@ -42,12 +42,13 @@ Como no es juego educativo, ni con caracter de enseñanza se penso por los desar
 ![descarga](https://user-images.githubusercontent.com/84584807/136476045-807b61bb-4bf9-4a95-9b5e-11774f6ab49a.png)
 
 
-Código
+# Código
+
 Para ejecutar el código y/o editarlo es necesario instalar Processing y Java (Java 8 o superior)
 
 Se hace uso de la librería de sonido minim, para poder instalarla siga los siguietes pasos:
 
-Abra el proyecto en Proccesing
-Sketch/Importar Bibliotecas/Añadir Bibiloteca
-Digite "Minim" en el buscador
-Install
+*Abra el proyecto en Proccesing
+*Sketch/Importar Bibliotecas/Añadir Bibiloteca
+*Digite "Minim" en el buscador
+*Install
