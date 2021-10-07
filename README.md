@@ -1,8 +1,22 @@
 # Latin ball dream
 
-Juan Sebastian Avila Diaz-2200524.
+# Autores
 
-Ingenieria Electronica.
+Juan Sebastian Avila Diaz-2200524.
+Santiago Andrés Fuentes Corzo-2192299.
+
+# Historia
+
+La historia de nuestro juego es basicamente una representación de la vida del ciudadano promedio, nuestro personaje(ball) tendra que enfrentar miles de obsculos, representados con signos economicoslos cuales tendra que superar para poder salir de lationoamerica. En esta primera entrega solo se planteran 2 niveles los cuales aproximan a nuestro heroe a cumplir su objetivo, en futuras mejoras se piensan incluir un par mas de niveles antes de realizar esta hazaña.
+
+El interfaz de nuestro juego es un menú basico de opciones, las cuales se muestran a continuación:
+
+![inicio](https://user-images.githubusercontent.com/84584807/136475158-31db45a4-601a-4afe-91a7-f7575ef94f35.png)
+
+
+![menu opciones](https://user-images.githubusercontent.com/84584807/136475189-593a3620-82b7-4e9d-a5d8-060c3de780b6.png)
+
+
 
 # Funcionamiento: 
 
