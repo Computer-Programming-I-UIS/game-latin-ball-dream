@@ -35,3 +35,10 @@ Se han proponido tres personajes diferentes, cada uno con caracteristicas especi
 
 ![niveles](https://user-images.githubusercontent.com/84584807/136475639-3f9e33ef-df2d-4efa-ade6-30ef3a554064.png)
 
+# Clasificación del juego:
+
+Como no es juego educativo, ni con caracter de enseñanza se penso por los desarrolladores que el juego es acto para mayores de 13 años, esta referencia la podemos ver en las imagenes primarias del juego y se puede identificar por el siguiente logo:
+
+![descarga](https://user-images.githubusercontent.com/84584807/136476045-807b61bb-4bf9-4a95-9b5e-11774f6ab49a.png)
+
+
