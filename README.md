@@ -48,7 +48,10 @@ Para ejecutar el código y/o editarlo es necesario instalar Processing y Java (J
 
 Se hace uso de la librería de sonido minim, para poder instalarla siga los siguietes pasos:
 
-*Abra el proyecto en Proccesing
-*Sketch/Importar Bibliotecas/Añadir Bibiloteca
-*Digite "Minim" en el buscador
-*Install
+*Abra el proyecto en Proccesing.
+
+*Sketch/Importar Bibliotecas/Añadir Bibiloteca.
+
+*Digite "Minim" en el buscador.
+
+*Install.
