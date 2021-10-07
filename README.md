@@ -3,6 +3,7 @@
 # Autores
 
 Juan Sebastian Avila Diaz-2200524.
+
 Santiago Andrés Fuentes Corzo-2192299.
 
 # Historia
@@ -24,3 +25,8 @@ El interfaz de nuestro juego es un menú basico de opciones, las cuales se muest
 
 El juego latin ball dream cuenta con un funcionamiento basico, en el cual las techas señaladas en la imagen tienen la función de darle el movimiento a nuestro personaje elegido(saltar,moverse a la derecha,moverse a la izquierda), a partir de ellas podemos elegir los movimientos y afrontar a los enemigos, por ultimo esta la tecla scape la cual cumple con la función de dejar retroceder a las opciones previamente elegidas por el usuario. 
 
+# Elección de personajes
+
+Se han proponido tres personajes diferentes, cada uno con caracteristicas especiales, por el momento se hara disponibilidad del personaje principal y depués se  busca la implimentación total de esta opción bajo la siguiente interfaz.
+
+![personajes](https://user-images.githubusercontent.com/84584807/136475510-1d680b12-e152-4907-a0be-bc05803660be.png)
