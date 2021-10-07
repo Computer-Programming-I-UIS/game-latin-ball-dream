@@ -31,7 +31,7 @@ Se han proponido tres personajes diferentes, cada uno con caracteristicas especi
 
 ![personajes](https://user-images.githubusercontent.com/84584807/136475510-1d680b12-e152-4907-a0be-bc05803660be.png)
 
-# Vista previa
+# Vista previa niveles
 
 ![niveles](https://user-images.githubusercontent.com/84584807/136475639-3f9e33ef-df2d-4efa-ade6-30ef3a554064.png)
-a niveles
+
