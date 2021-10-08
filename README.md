@@ -55,3 +55,25 @@ Se hace uso de la librería de sonido minim, para poder instalarla siga los sigu
 *Digite "Minim" en el buscador.
 
 *Install.
+
+# Link de referencias
+
+imagenes
+
+https://co.pinterest.com/shirley151201/red-pall-4/
+
+https://www.mundoprimaria.com/mitos-y-leyendas-para-ninos/el-molino-magico
+
+https://www.minijuegos.com/juego/red-ball-4
+
+https://www.misjuegos.com/juego/red_ball_1.html
+
+https://red-ball4.com/red-ball-3
+
+musica:
+
+FDG Entertainment(Diseñadores de red ball)
+
+
+
+
