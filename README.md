@@ -74,6 +74,12 @@ musica:
 
 FDG Entertainment(Diseñadores de red ball)
 
+# Creditos:
+
+![creditosff (1)](https://user-images.githubusercontent.com/84584807/136680468-80b2c205-9778-48e0-9663-0e65f5ffacf2.png)
+
+
+
 
 
 
