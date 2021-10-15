@@ -15,7 +15,8 @@ El interfaz de nuestro juego es un menú basico de opciones, las cuales se muest
 ![inicio](https://user-images.githubusercontent.com/84584807/136475158-31db45a4-601a-4afe-91a7-f7575ef94f35.png)
 
 
-![menu opciones](https://user-images.githubusercontent.com/84584807/136475189-593a3620-82b7-4e9d-a5d8-060c3de780b6.png)
+
+![gjhfgsd](https://user-images.githubusercontent.com/84584807/137426537-2d9258aa-0704-449d-be6f-fe1e3d6161a7.png)
 
 
 
