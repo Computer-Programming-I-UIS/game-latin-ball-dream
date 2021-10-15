@@ -29,7 +29,8 @@ El juego latin ball dream cuenta con un funcionamiento basico, en el cual las te
 
 Se han proponido tres personajes diferentes, cada uno con caracteristicas especiales, por el momento se hara disponibilidad del personaje principal y depués se  busca la implimentación total de esta opción bajo la siguiente interfaz.
 
-![personajes](https://user-images.githubusercontent.com/84584807/136475510-1d680b12-e152-4907-a0be-bc05803660be.png)
+![personajes](https://user-images.githubusercontent.com/84584807/137425703-b0fea851-c8f7-4022-9f06-78b5cba612a0.png)
+
 
 # Vista previa niveles
 
