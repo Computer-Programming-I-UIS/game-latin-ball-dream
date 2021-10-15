@@ -21,13 +21,14 @@ El interfaz de nuestro juego es un menú basico de opciones, las cuales se muest
 
 # Funcionamiento: 
 
-![controles](https://user-images.githubusercontent.com/84584807/136473735-a461cbc2-e89c-48e9-9dd1-5ef1f1fde016.png)
+![controles](https://user-images.githubusercontent.com/84584807/137426032-bb2f67e0-7e58-4707-9517-57089250eb84.png)
 
-El juego latin ball dream cuenta con un funcionamiento basico, en el cual las techas señaladas en la imagen tienen la función de darle el movimiento a nuestro personaje elegido(saltar,moverse a la derecha,moverse a la izquierda), a partir de ellas podemos elegir los movimientos y afrontar a los enemigos, por ultimo esta la tecla scape la cual cumple con la función de dejar retroceder a las opciones previamente elegidas por el usuario. 
+
+El juego latin ball dream cuenta con un funcionamiento basico, en el cual las teclas señaladas en la imagen tienen la función de darle el movimiento a nuestro personaje elegido(saltar,moverse a la derecha,moverse a la izquierda), a partir de ellas podemos elegir los movimientos y afrontar a los enemigos, por ultimo estan los botones volver y salir los cuales hacen de menú algo mas comodo.
 
 # Elección de personajes
 
-Se han proponido tres personajes diferentes, cada uno con caracteristicas especiales, por el momento se hara disponibilidad del personaje principal y depués se  busca la implimentación total de esta opción bajo la siguiente interfaz.
+Se han proponido dos personajes diferentes, cada uno con caracteristicas especiales, por el momento se hara disponibilidad del personaje principal y depués se  busca la implimentación total de esta opción bajo la siguiente interfaz.
 
 ![personajes](https://user-images.githubusercontent.com/84584807/137425703-b0fea851-c8f7-4022-9f06-78b5cba612a0.png)
 
