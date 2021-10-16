@@ -1,12 +1,21 @@
 
-
+import ddf.minim.*;
+Minim minim;//Se declara la clase minim
+AudioPlayer audioinicio;
 PImage inicio, menuopciones, niveles, creditos, controles, personajes, fondonivel;
-boolean confirmar;
+//boolean confirmar;
 PFont pixelFont;
 boolean presionartecla= true;
 int titulopress = 0;
 char escena= 'N';
 Boton music, salir, volver;
+
+//musica
+AudioPlayer iniciomenu;
+AudioPlayer sonidonivel;
+AudioPlayer alelegirenelmenu;
+AudioPlayer intromenu;
+AudioSample presionarboton;
 
 /*final static int normal = 0;
  final static int derecha = 1;
@@ -36,9 +45,20 @@ void setup()
   creditos = loadImage("creditos.png");
   controles = loadImage("controles.png");
   personajes = loadImage("personajes.png");
-
-
   pixelFont = createFont("monogram_extended.ttf", 45);
+  
+    //Musica
+  minim = new Minim(this);
+  iniciomenu = minim.loadFile("iniciomenu.mp3");
+  iniciomenu.setGain(-20);  //Bajar el volumen
+  intromenu= minim.loadFile("intromenu.mp3");
+  intromenu.setGain(-25);
+  sonidonivel = minim.loadFile("sonidonivel.mp3"); 
+  sonidonivel.setGain(-20);
+  alelegirenelmenu = minim.loadFile("alelegirenelmenu.mp3");
+  presionarboton= minim.loadSample("presionarboton.mp3");
+ 
+  
 
   /*size(800,511);
    imageMode(CENTER);
@@ -55,9 +75,14 @@ void draw() {
   switch(escena) {
   case 'N':
     image(inicio, 0, 0);
-    //Texto Presione escacio para continuar
+    
+      if(!iniciomenu.isPlaying()){
+        iniciomenu.loop();  //Inicia reproduciendose en loop
+      }
+    
+    //Texto Presione cualquier tecla para continuar
     if (frameCount%30 == 0)  presionartecla = !presionartecla;  //Parpadea el texto cada 30 frames
-    if (presionartecla && titulopress == 0) {  //Si no se ha presionado espacio
+    if (presionartecla && titulopress == 0) {  //Si no se ha presionado una tecla
       textFont(pixelFont);
       fill(#FF0000);
       textSize(25);
@@ -75,35 +100,75 @@ void draw() {
   case 'A':
     menuopciones.resize(630, 365);
     image(menuopciones, 0, 0);
+    if(!iniciomenu.isPlaying()){
+       iniciomenu.loop();  //Inicia reproduciendose en loop
+    }
+  
     salir.fin();
     music.musica();
+    
+      if (mousePressed) {
+      if (mouseX >528 && mouseX<581 && mouseY> 0 && mouseY <27) {
+    
+        iniciomenu.pause();
+     
+      }
+      }
+      if (mousePressed) {
+      if (mouseX >581 && mouseX<630 && mouseY>0 && mouseY <27) {
+      
+      iniciomenu.isPlaying();
+       }
+      }
+    
     if (mousePressed) {
       if (mouseX >207 && mouseX<391 && mouseY> 170 && mouseY <202) {
         escena ='B';//Se ejecuta el juego
+        iniciomenu.pause();
+        if(!sonidonivel.isPlaying()){
+          sonidonivel.loop();  //Inicia reproduciendose en loop
+       }
       }
     }
     if (mousePressed) {
       if (mouseX >207 && mouseX<390 && mouseY> 211 && mouseY <239) {
         escena ='C';//Se envia a niveles
+        iniciomenu.pause();
+        if(!intromenu.isPlaying()){
+        intromenu.loop();  //Inicia reproduciendose en loop
+       }
       }
     }
     if (mousePressed) {
       if (mouseX >206 && mouseX<390 && mouseY> 247 && mouseY <274) {
         escena ='D';
+        iniciomenu.pause();
+        if(!intromenu.isPlaying()){
+        intromenu.loop();  //Inicia reproduciendose en loop
+       }
       }
     }
     if (mousePressed) {
       if (mouseX >205 && mouseX<388 && mouseY> 283 && mouseY <312) {
         escena ='E';
+        iniciomenu.pause();
+        if(!intromenu.isPlaying()){
+        intromenu.loop();  //Inicia reproduciendose en loop
+       }
       }
+      
     }
     if (mousePressed) {
       if (mouseX >205 && mouseX<388 && mouseY>318 && mouseY <347) {
         escena ='F';
+        iniciomenu.pause();
+        if(!intromenu.isPlaying()){
+        intromenu.loop();  //Inicia reproduciendose en loop
+       }
       }
     }
     if (salir.toque()==true)exit();
-    if (music.toque()==true)exit();
+   
 
 
 
@@ -137,9 +202,9 @@ void draw() {
 
 void desplazamiento() {
 
-  music= new Boton(453, 0, 177, 27);
+  music= new Boton(455, 0, 177, 27);
   salir= new Boton(0, 0, 98, 19);
-  volver=new Boton(330, 200, 98, 18);
+  volver=new Boton(110, 0, 98, 18);
 }
 /*void jugar()
  {
@@ -237,8 +302,12 @@ void level() {
   if (salir.toque()==true)exit();
   salir.toque();
   volver.regresar();
-  if (volver.toque()==true) escena='A';
-  volver.toque();
+  if (volver.toque()==true){
+    escena='A';
+    intromenu.pause();
+    intromenu.rewind();
+  }
+
 }
 void jugar() {
   image(fondonivel, 0, 0);
@@ -246,8 +315,12 @@ void jugar() {
   if (salir.toque()==true)exit();
   salir.toque();
   volver.regresar();
-  if (volver.toque()==true)escena='A';
-  volver.toque();
+  if (volver.toque()==true){
+    escena='A';
+    sonidonivel.pause();
+    sonidonivel.rewind();
+  }
+ 
 }
 void personajes() {
   image(personajes, 0, 0);
@@ -255,8 +328,12 @@ void personajes() {
   if (salir.toque()==true)exit();
   salir.toque();
   volver.regresar();
-  if (volver.toque()==true)escena='A';
-  volver.toque();
+  if (volver.toque()==true){
+    escena='A';
+    intromenu.pause();
+    intromenu.rewind();
+  }
+ 
 }
 void creditos() {
   image(creditos, 0, 0);
@@ -264,8 +341,12 @@ void creditos() {
   if (salir.toque()==true)exit();
   salir.toque();
   volver.regresar();
-  if (volver.toque()==true)escena='A';
-  volver.toque();
+  if (volver.toque()==true){
+    escena='A';
+    intromenu.pause();
+    intromenu.rewind();
+  }
+ 
 }
 void controles() {
   image(controles, 0, 0);
@@ -273,6 +354,10 @@ void controles() {
   if (salir.toque()==true)exit();
   salir.toque();
   volver.regresar();
-  if (volver.toque()==true)escena='A';
-  volver.toque();
+  if (volver.toque()==true){
+    escena='A';
+    intromenu.pause();
+    intromenu.rewind();
+  }
+ 
 }
