@@ -8,7 +8,7 @@ Santiago Andrés Fuentes Corzo-2192299.
 
 # Historia
 
-La historia de nuestro juego es basicamente una representación de la vida del ciudadano promedio, nuestro personaje(ball) tendra que enfrentar miles de obsculos, representados con signos economicoslos cuales tendra que superar para poder salir de lationoamerica. En esta primera entrega solo se planteran 2 niveles los cuales aproximan a nuestro heroe a cumplir su objetivo, en futuras mejoras se piensan incluir un par mas de niveles antes de realizar esta hazaña.
+La historia de nuestro juego es basicamente una representación de la vida del ciudadano promedio, nuestro personaje(ball) tendra que enfrentar miles de obsculos, representados con signos economicos los cuales tendra que superar para poder salir de lationoamerica. En esta primera entrega solo se plantera 1 nivel el cual aproxima a nuestro heroe a cumplir su objetivo, en futuras mejoras se piensan incluir un par mas de niveles antes de realizar esta hazaña.
 
 El interfaz de nuestro juego es un menú basico de opciones, las cuales se muestran a continuación:
 
