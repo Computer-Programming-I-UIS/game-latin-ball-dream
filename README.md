@@ -12,17 +12,17 @@ La historia de nuestro juego es basicamente una representación de la vida del c
 
 El interfaz de nuestro juego es un menú basico de opciones, las cuales se muestran a continuación:
 
-![inicio](https://user-images.githubusercontent.com/84584807/136475158-31db45a4-601a-4afe-91a7-f7575ef94f35.png)
+![inicio](https://user-images.githubusercontent.com/84584807/138372953-2cf06b86-a5da-4450-aa32-725c9fe16f44.png)
 
+![menuopciones](https://user-images.githubusercontent.com/84584807/138372968-95093e22-8dda-414f-9dfe-9e85c23ad108.png)
 
-
-![gjhfgsd](https://user-images.githubusercontent.com/84584807/137426537-2d9258aa-0704-449d-be6f-fe1e3d6161a7.png)
 
 
 
 # Funcionamiento: 
 
-![controles](https://user-images.githubusercontent.com/84584807/137426032-bb2f67e0-7e58-4707-9517-57089250eb84.png)
+![controles](https://user-images.githubusercontent.com/84584807/138373018-bcc50f98-4313-4b68-9bc0-f69b0b2ba262.png)
+
 
 
 El juego latin ball dream cuenta con un funcionamiento basico, en el cual las teclas señaladas en la imagen tienen la función de darle el movimiento a nuestro personaje elegido(saltar,moverse a la derecha,moverse a la izquierda), a partir de ellas podemos elegir los movimientos y afrontar a los enemigos, por ultimo estan los botones volver y salir los cuales hacen de menú algo mas comodo.
@@ -31,12 +31,16 @@ El juego latin ball dream cuenta con un funcionamiento basico, en el cual las te
 
 Se han proponido dos personajes diferentes, cada uno con caracteristicas especiales, por el momento se hara disponibilidad del personaje principal y depués se  busca la implimentación total de esta opción bajo la siguiente interfaz.
 
-![personajes](https://user-images.githubusercontent.com/84584807/137425703-b0fea851-c8f7-4022-9f06-78b5cba612a0.png)
+![personajes](https://user-images.githubusercontent.com/84584807/138373039-8e772981-f1bf-4964-bbcb-0679062a110d.png)
+
 
 
 # Vista previa niveles
 
-![niveles](https://user-images.githubusercontent.com/84584807/136475639-3f9e33ef-df2d-4efa-ade6-30ef3a554064.png)
+
+![niveles](https://user-images.githubusercontent.com/84584807/138373076-805c9603-c703-4788-b9d0-fc4f0e856093.png)
+
+
 
 # Clasificación del juego:
 
